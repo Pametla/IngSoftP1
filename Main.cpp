@@ -94,11 +94,9 @@ int main()
 			else if (i == posicionBala && disparar)  printf("%c", '.'); //imprime bala
 			else  printf("%c", '-');									//imprime mundo
 		}
-
 		Sleep(delay);
 		system("cls");
 	}
-
     return 0;
 }
 
